@@ -1,0 +1,99 @@
+#hero {
+    display: flex;
+    flex-direction: column;
+
+    background: url(../assets/elephant-landscape.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 0 50px;
+
+    @media screen and (max-width: 420px) {
+        background: url(../assets/bgmobile.png) no-repeat;
+        height: 130vh;
+    }
+}
+
+#hero nav {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    user-select: none;
+
+    @media screen and (max-width: 800px) {
+        margin-top: 20px;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+}
+#hero nav img {
+    width: 50px;
+    height: 50px;
+
+    @media screen and (max-width: 800px) {
+        margin-bottom: 20px;
+    }
+}
+#hero nav ul {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    @media screen and (max-width: 420px) {
+        flex-direction: column;
+    }
+}
+#hero nav ul li {
+    margin: 0 25px;
+    @media screen and (max-width: 420px) {
+        margin-bottom: 10px;
+    }
+}
+#hero nav ul li:last-child {
+    margin-right: 0;
+}
+#hero nav ul li a {
+    text-decoration: none;
+    font-family: "Ubuntu";
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#hero nav ul li a:not(.btn) {
+    transition: color 0.25s;
+}
+#hero nav ul li a:not(.btn):hover,
+#hero nav ul li a.active {
+    color: #328916;
+    border-bottom: 2px solid #328916;
+}
+#hero aside {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#hero aside p {
+    margin: 40px 0 80px 0;
+    color: #000;
+    @media screen and (max-width: 420px) {
+        font-size: 25px;
+        text-align: center;
+        margin: 20px;
+        margin-bottom: 50px;
+        color: white;
+    }
+}
+#hero aside h1 {
+    @media screen and (max-width: 420px) {
+        font-size: 60px;
+        text-align: center;
+        color: white;
+    }
+}
+#hero aside a {
+    @media screen and (max-width: 420px) {
+        margin: 0 auto;
+    }
+}

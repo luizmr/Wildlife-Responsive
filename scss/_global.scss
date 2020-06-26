@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+h1 {
+    font-family: $primary;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 1;
+    color: #000;
+}
+p {
+    font-family: $primary;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 1.25;
+}
+ul {
+    list-style-type: none;
+}
