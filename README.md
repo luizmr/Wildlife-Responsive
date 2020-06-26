@@ -41,7 +41,7 @@ A home page made for a fictitious organization which helps Elephants on the Afri
 #### **Website**
 
 -   **[HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)**
--   **[SCCS](https://sass-lang.com/)**
+-   **[SCSS/SASS](https://sass-lang.com/)**
 -   **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)**
 
 #### **Utilitaries**
@@ -54,7 +54,7 @@ A home page made for a fictitious organization which helps Elephants on the Afri
 Before you begin, you will need to have the following tool installed on your machine:
 [Git](https://git-scm.com)
 
-In addition, it is good to have an editor to work with the code as [VSCode][vscode]
+In addition, it is good to have an editor to work with the code as [VSCode][https://code.visualstudio.com/]
 
 ### 🧭 Running the web application (Front End)
 
